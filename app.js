@@ -12,6 +12,6 @@ app.post('/', (req,res) =>{
 })
 
 app.listen(port, ()=>{
-    conosle.log(`Server is listening on port ${port}`);
+    console.log(`Server is listening on port ${port}`);
 });
 
